@@ -1,0 +1,612 @@
+/* Navbar CSS PARST */
+
+.navbar {
+  background-color: rgb(14, 13, 13);
+  border-bottom: 0.1px solid black;
+  box-shadow: 10px 10px 5px rgba(29, 28, 28, 0.705);
+  position: fixed;
+}
+
+.navbar h3 {
+  color: goldenrod;
+  text-shadow: 2px 2px 4px rgb(179, 156, 100);
+  margin: 0 2vw;
+}
+.links {
+  color: goldenrod;
+  justify-content: flex-end;
+  display: flex;
+  gap: 3rem;
+  margin: 0 2vw;
+  padding-left: 30vw;
+}
+
+.links a:hover {
+  border-bottom: 2px solid goldenrod;
+  text-transform: uppercase;
+  color: goldenrod;
+  /* background-color: goldenrod; */
+  height: 100%;
+  padding: 0.5vh 2vh;
+  /* border-radius: 50px;
+  border: none; */
+  font-weight: 700;
+}
+
+/* img {
+  width: 100%;
+  height: 100vh;
+} */
+/* .bton {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 0.7vh 1.5vw;
+  border: none;
+  font-weight: 600;
+}
+
+.bton:hover {
+  background-color: #ffffffb6;
+  color: black;
+} */
+.manu {
+  padding-right: 2vw;
+}
+.manu a {
+  color: goldenrod;
+  font-size: 1.5vw;
+}
+.close a {
+  color: white;
+  font-size: 2.5vw;
+  text-decoration: none;
+  padding-bottom: 5vw;
+}
+
+.links a:hover {
+  border-bottom: 2px solid goldenrod;
+  text-transform: uppercase;
+  color: goldenrod;
+  /* background-color: goldenrod; */
+  /* height: 100%; */
+  padding: 0.5vh 2vh;
+  /* border-radius: 50px; */
+  /* border: none; */
+  font-weight: 700;
+}
+.sidelinks {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  gap: 2rem;
+  padding-top: 1vw;
+  padding-left: 2vw;
+  z-index: 999;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.144);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px #ffffff8e;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidelinks a:hover {
+  border-bottom: 2px solid white;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffffa1;
+
+  padding: 1vh 0;
+
+  border: none;
+  font-weight: 700;
+}
+.sidelinks a {
+  width: 100%;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+
+*/ .left {
+  width: 40%;
+  height: 100vh;
+  /* background-color: rgb(34, 31, 31); */
+}
+
+.right1 {
+  width: 60%;
+  height: 100vh;
+  /* background-color: aqua; */
+}
+
+.left p {
+  color: #eee9e9;
+  padding-left: 18vh;
+  padding-top: 15vh;
+}
+.left p h2 {
+  font-size: 6vw;
+  padding-bottom: 6vh;
+  font-style: italic;
+  color: goldenrod;
+  text-shadow: 4px 4px 8px white;
+}
+.left p h3 {
+  font-size: 3vw;
+  padding-bottom: 3vh;
+  font-style: italic;
+  color: goldenrod;
+  text-shadow: 4px 4px 8px white;
+}
+.right-button {
+  position: absolute;
+  margin-top: 3vh;
+  padding-left: 12vw;
+  display: flex;
+}
+.right-1 {
+  background-color: goldenrod;
+  border-radius: 50px;
+  gap: 2rem;
+  padding: 1vh 3vw;
+  border: none;
+  font-weight: 600;
+  /* display: inline; */
+  position: relative;
+}
+.right-1:hover {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  filter: drop-shadow(10px 7px 10px white);
+}
+
+.right-2 {
+  border-radius: 50px;
+  padding: 1vh 3vw;
+  border: none;
+  font-weight: 600;
+  position: relative;
+  /* display: inline; */
+}
+
+.right-2:hover {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  filter: drop-shadow(10px 7px 10px white);
+}
+.logos {
+  font-size: 2vw;
+  padding-top: 5vw;
+  padding-left: 12vw;
+  height: 10%;
+  width: 20px;
+  position: relative;
+  display: flex;
+  /* display: inline; */
+  gap: 2rem;
+  cursor: pointer;
+  color: goldenrod;
+}
+.logos a {
+  color: goldenrod;
+}
+.logos a:hover {
+  color: gray;
+  border: white;
+  font-size: 2.5vw;
+}
+.box {
+  /* margin-top: 15vh;
+  margin-left: 13vw;
+  background-color: gray; */
+  width: 100%;
+  height: 900px;
+  /* 2  justify-content: center; */
+  /* border-radius: 50%;
+  box-shadow: 10px 10px 5px gray;
+  border: 1px solid #dadada; */
+  margin-bottom: 2vw;
+}
+.box img {
+  margin-top: 5vh;
+
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* border-radius: 50%; */
+  filter: drop-shadow(10px 7px 10px white);
+  margin-left: 11vw;
+}
+
+/* About parts Css  */
+
+.About {
+  height: 100vh;
+  width: 100%;
+  /* border-top: 2px solid goldenrod; */
+  color: goldenrod;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+}
+.About h1 {
+  font-size: 4vw;
+  padding-right: 43vw;
+  padding-top: 3vh;
+  font-family: none;
+  text-shadow: 2px 2px 4px #000000;
+  position: relative;
+}
+.About img {
+  margin-top: 8vw;
+  position: relative;
+  border: 3px solid #f3efef;
+  box-shadow: 10px 7px 20px black;
+}
+.left1 {
+  height: 100vh;
+  width: 30%;
+  background-color: #fff;
+}
+.Right {
+  height: 100vh;
+  width: 70%;
+  background-color: #fff;
+  /* position: relative; */
+}
+.Right h2 {
+  padding-top: 2vw;
+  padding-right: 45vw;
+  font-size: 2vw;
+  font-family: none;
+  text-shadow: 2px 2px 4px #000000;
+  position: relative;
+}
+.Right p {
+  color: #000000;
+  font-size: 1vw;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-right: 30vw;
+
+  position: relative;
+}
+
+/*  skill part CSS*/
+
+.skill {
+  height: 150vh;
+  width: 100%;
+  background-color: black;
+}
+.skill h1 {
+  padding-top: 3vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  text-align: center;
+  font-family: none;
+  color: goldenrod;
+  text-shadow: 2px 2px 4px white;
+  border-bottom: 1px solid goldenrod;
+}
+
+.boxes {
+  margin-top: 6vh;
+  /* padding: 2vw 6vw;
+   margin: 2vw 6vw ; */
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  word-wrap: break-word;
+}
+
+.box1 {
+  border-radius: 30px;
+  width: 25%;
+  height: 500px;
+  color: goldenrod;
+  background-color: white;
+  border: 1px solid black;
+  padding-left: 120px;
+  padding-top: 5%;
+  box-shadow: 10px 10px 5px #a5a3a3;
+}
+
+.box1:hover {
+  background-color: goldenrod;
+  border: 2px solid black;
+  color: black;
+  /* border-radius: 30px;
+  width: 23%;
+  height: 450px; */
+  box-shadow: 10px 7px 20px #c4a559;
+}
+.box1 img {
+  width: 60%;
+  height: 65%;
+  border-radius: 50%;
+}
+
+.box1 h3 {
+  padding-top: 3vh;
+  padding-right: 10px;
+  word-wrap: break-word;
+}
+.contenerstext {
+  padding-right: 30px;
+}
+.progress-bar {
+  width: 75%;
+}
+.progress-barcss {
+  width: 70%;
+}
+.progress-barjs {
+  width: 50%;
+}
+.contenerstext1 {
+  padding-right: 30px;
+}
+.progress-barbs {
+  width: 75%;
+}
+.progress-barrjx {
+  width: 50%;
+}
+.progress-barc {
+  width: 55%;
+}
+.boxes1 {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.box2 {
+  border-radius: 30px;
+  width: 25%;
+  height: 500px;
+  color: goldenrod;
+  background-color: white;
+  border: 1px solid black;
+  padding-left: 120px;
+  padding-top: 5%;
+  box-shadow: 10px 10px 5px #ffffffb0;
+}
+.box2:hover {
+  background-color: goldenrod;
+  border: 2px solid black;
+  color: black;
+  box-shadow: 10px 7px 20px rgb(172, 144, 74);
+}
+.box2 img {
+  width: 60%;
+  height: 65%;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.box2 h3 {
+  padding-top: 3vh;
+  padding-right: 10vw;
+}
+
+/* 3  project part CSS */
+
+.project {
+  height: 115vh;
+  width: 100%;
+  background-color: white;
+  color: goldenrod;
+}
+.project h1 {
+  padding-top: 3vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  align-items: center;
+  font-family: none;
+  text-shadow: 3px 3px 4px black;
+}
+.project h5 {
+  text-align: center;
+  text-decoration: underline;
+  color: goldenrod;
+  font-weight: 400;
+}
+.project h5:hover {
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  color: black;
+  text-shadow: 3px 3px 4px black;
+}
+
+.projectboxes {
+  margin-top: 6vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.project-box {
+  border-radius: 10px;
+  width: 20%;
+  height: 400px;
+  color: goldenrod;
+  background-color: #242323;
+  border: 1px solid rgb(14, 13, 13);
+  align-items: center;
+  box-shadow: 10px 10px 5px #3a3a3a;
+  border: none;
+}
+.project-box:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 10px 7px 20px black;
+}
+.project-box img {
+  width: 100%;
+  height: 78%;
+  border-radius: 10px;
+
+  align-items: center;
+}
+.project-box img:hover {
+  width: 100%;
+  height: 100%;
+}
+.nav-link1 {
+  text-decoration: none;
+  margin-top: 5vw;
+  color: goldenrod;
+  font-size: 1vw;
+  font-weight: 700;
+  position: relative;
+  padding-left: 30px;
+}
+
+.project-box .nav-link1 {
+  padding-top: 1%;
+}
+
+/* RESUME PARTS CSS  */
+
+.resume1 {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: goldenrod;
+}
+
+.resume1 h1 {
+  padding-top: 3vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  align-items: center;
+  font-family: none;
+  color: goldenrod;
+  text-shadow: 2px 2px 4px black;
+}
+.resume-container {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: space-around;
+}
+.resume-container h1 {
+  color: rgba(238, 173, 8, 0.966);
+  font-size: 2vw;
+}
+.resume-container li {
+  font-size: 1.4vw;
+  color: #d4a735be;
+}
+.resumes {
+  border-radius: 10px;
+  width: 30%;
+  height: 500px;
+  color: goldenrod;
+
+  background-color: #635e5e4f;
+  border-bottom: 2px solid goldenrod;
+  box-shadow: 10px 7px 20px goldenrod;
+}
+/* .resumes:hover {
+  background-color: goldenrod;
+  box-shadow: 10px 7px 20px #f1efef;
+  color: rgb(10, 10, 10);
+} */
+
+/* CONTECTS PARTS CSS */
+
+.contect {
+  height: 155vh;
+  width: 100%;
+  background-color: #202020;
+  color: white;
+}
+
+.contect h1 {
+  text-align: center;
+  padding-top: 3vw;
+  color: goldenrod;
+  text-shadow: 2px 2px 4px black;
+}
+.contect h2 {
+  text-align: center;
+  padding-top: 3vw;
+  color: goldenrod;
+  font-size: 5vw;
+  text-shadow: 2px 2px 4px black;
+}
+.form {
+  height: 68vh;
+  margin: 7vw 28vw;
+  background-color: #00000071;
+  padding-left: 5vw;
+  padding-top: 3vw;
+  font-size: 2vw;
+  color: goldenrod;
+  border-radius: 30px;
+  border-bottom: 2px solid goldenrod;
+  box-shadow: 10px 7px 20px goldenrod;
+}
+
+.form h4 {
+  font-size: 1vw;
+}
+.form input {
+  font-size: 1vw;
+  width: 80%;
+  border-radius: 50px;
+  background-color: transparent;
+  border: none;
+}
+.form .submit {
+  margin-top: 3vw;
+  margin-left: 27vw;
+  border-radius: 50px;
+  border: none;
+  background-color: goldenrod;
+  font-size: 1vw;
+  padding: 1vh 3vw;
+  font-weight: 400;
+}
+
+.icons {
+  border-bottom: 1px solid goldenrod;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2vw;
+}
+
+.icons a {
+  text-decoration: none;
+  color: goldenrod;
+  display: flex;
+
+  text-transform: uppercase;
+}
+.icons a:hover {
+  border-bottom: 2px solid goldenrod;
+  font-size: 1vw;
+}
+.copyright p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2vw;
+
+  color: goldenrod;
+}
